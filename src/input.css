@@ -36,11 +36,13 @@
   .bg-surface-container-highest { background-color: var(--color-surface-container-highest); }
   .bg-primary { background-color: var(--color-primary); }
   .bg-primary-container { background-color: var(--color-primary-container); }
+  .bg-secondary { background-color: var(--color-secondary); }
   .bg-secondary-container { background-color: var(--color-secondary-container); }
   .bg-secondary-fixed { background-color: var(--color-secondary-fixed); }
   .bg-tertiary-fixed { background-color: var(--color-tertiary-fixed); }
   .bg-on-primary\/10 { background-color: rgba(255, 255, 255, 0.1); }
   .text-primary { color: var(--color-primary); }
+  .text-secondary { color: var(--color-secondary); }
   .text-on-primary { color: var(--color-on-primary); }
   .text-on-secondary-container { color: var(--color-on-secondary-container); }
   .text-on-surface { color: var(--color-on-surface); }
@@ -49,6 +51,58 @@
   .text-on-secondary-fixed { color: var(--color-on-secondary-fixed); }
   .text-on-tertiary-fixed-variant { color: var(--color-on-tertiary-fixed-variant); }
   .border-outline-variant { border-color: var(--color-outline-variant); }
+}
+
+@layer components {
+  .form-card {
+    @apply rounded-3xl border shadow-sm;
+    border-color: var(--color-outline-variant);
+    background-color: var(--color-surface-container-lowest);
+  }
+
+  .form-label {
+    display: block;
+    color: var(--color-primary);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+  }
+
+  .form-input {
+    @apply mt-2 w-full rounded-2xl border px-4 py-3 shadow-sm outline-none transition duration-200;
+    border-color: var(--color-outline-variant);
+    background-color: var(--color-surface-container-lowest);
+    color: var(--color-on-surface);
+  }
+
+  .form-input:focus {
+    border-color: var(--color-primary);
+    background-color: var(--color-surface);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-primary) 20%, transparent);
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold shadow-sm transition-all duration-200 hover:-translate-y-0.5;
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-primary-container);
+    color: var(--color-on-primary-container);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border px-5 py-3 text-sm font-semibold shadow-sm transition-all duration-200 hover:-translate-y-0.5;
+    border-color: var(--color-outline-variant);
+    background-color: var(--color-surface-container-lowest);
+    color: var(--color-primary);
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-surface-container-high);
+    border-color: color-mix(in srgb, var(--color-primary) 40%, var(--color-outline-variant));
+  }
 }
 
 .material-symbols-outlined {

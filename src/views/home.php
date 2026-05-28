@@ -9,10 +9,10 @@
                     <h1 class="font-headline-xl text-headline-xl mb-4 leading-tight">Un Espace Sacré pour Vos Intentions</h1>
                     <p class="font-body-lg text-body-lg mb-8 text-on-primary/90">Relier notre communauté par la prière, le service et les traditions intemporelles de l'Église.</p>
                     <div class="flex flex-wrap gap-4">
-                        <button class="bg-secondary-container text-on-secondary-container px-8 py-4 rounded-xl font-bold hover:opacity-90 transition-all shadow-lg flex items-center gap-2">
+                        <a href="?p=demande-messe" class="bg-secondary-container text-on-secondary-container px-8 py-4 rounded-xl font-bold hover:opacity-90 transition-all shadow-lg flex items-center gap-2">
                             Explorer les Services
                             <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
-                        </button>
+                        </a>
                         <button class="border-2 border-on-primary text-on-primary px-8 py-4 rounded-xl font-bold hover:bg-on-primary hover:text-primary transition-all">
                             Voir les Horaires
                         </button>

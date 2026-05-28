@@ -20,9 +20,9 @@
         <nav class="flex justify-between items-center px-margin-desktop py-4 w-full max-w-[1200px] mx-auto">
             <div class="text-headline-md font-headline-md text-primary tracking-tight">Paroisse Saint Gabriel de Cococodji</div>
             <div class="hidden md:flex items-center gap-8">
-                <a class="text-primary font-bold border-b-2 border-secondary" href="#">Accueil</a>
-                <a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Demandes de messe</a>
-                <a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Dons</a>
+                <a class="text-primary font-bold border-b-2 border-secondary" href="?p=home">Accueil</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors" href="?p=demande-messe">Demandes de messe</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors" href="?p=gestion-dons">Dons</a>
             </div>
             <div class="flex items-center gap-4">
                 <button class="hidden md:block bg-primary text-on-primary px-6 py-2.5 rounded-xl font-bold hover:opacity-90 transition-all active:scale-95 duration-200 shadow-sm">
