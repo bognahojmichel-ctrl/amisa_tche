@@ -1,104 +1,123 @@
-<section class="px-margin-mobile py-12 md:px-margin-desktop md:py-16 max-w-[1200px] mx-auto">
-  <div class="grid gap-8 lg:grid-cols-[1fr_1.05fr] items-start">
-    <div class="space-y-6">
-      <div class="space-y-4">
-        <p class="font-label-sm text-label-sm uppercase tracking-[0.35em] text-secondary">Messe spéciale</p>
-        <h1 class="font-headline-xl text-headline-xl text-primary">Une célébration dédiée à votre intention</h1>
-        <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Préparez une demande de messe spéciale avec élégance, clarté et respect pour la tradition liturgique de la paroisse Saint Gabriel de Cococodji.</p>
-      </div>
+<!-- Main Content Section -->
+<div class="bg-[#f8f9fa] min-h-screen flex flex-col">
+    <!-- Header Section -->
+    <section class="px-4 md:px-12 py-16 flex justify-center border-b border-[rgba(191,200,205,0.3)]">
+        <div class="w-full max-w-[1200px]">
+            <h1 class="font-['Noto_Serif'] font-bold text-[#0c6780] text-[48px] text-center leading-[57.6px] tracking-[-0.96px] mb-4">
+                Demander une Messe Spéciale
+            </h1>
+            <p class="font-['Manrope'] text-[#3f484c] text-[16px] text-center leading-[26px]">
+                Célébrez un événement particulier ou une intention spéciale avec une messe dédiée à la paroisse.
+            </p>
 
-      <article class="rounded-3xl bg-primary text-on-primary p-6 md:p-8 shadow-lg border border-primary/10 transition-all duration-300 hover:-translate-y-1">
-        <div class="flex items-start gap-4">
-          <span class="material-symbols-outlined text-4xl text-secondary-fixed">auto_awesome</span>
-          <div>
-            <p class="font-label-sm text-label-sm uppercase tracking-[0.35em] text-on-primary/80">Conseil pastoral</p>
-            <h2 class="mt-3 font-headline-md text-headline-md">Pourquoi une messe spéciale ?</h2>
-            <p class="mt-4 font-body-md text-body-md text-on-primary/90">Pour les funérailles, les mémoires, les jubilés ou les célébrations particulières, un accompagnement prêtre est essentiel afin de préparer la liturgie avec la juste solennité.</p>
-          </div>
-        </div>
-      </article>
-
-      <article class="rounded-3xl border border-outline-variant bg-surface-container-lowest p-6 md:p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
-        <div class="flex items-center gap-3 text-primary">
-          <span class="material-symbols-outlined text-3xl">event_available</span>
-          <h3 class="font-headline-md text-headline-md">Avant de poursuivre</h3>
-        </div>
-        <p class="mt-4 font-body-md text-body-md text-on-surface-variant">Cette demande doit être accompagnée d’un échange pastoral. La prise en charge est sécurisée, discrète et organisée avec soin.</p>
-        <div class="mt-5 flex flex-wrap gap-3 text-sm text-on-surface-variant">
-          <span class="rounded-full bg-primary-container px-4 py-2">Accompagnement sacerdotal</span>
-          <span class="rounded-full bg-surface-container-high px-4 py-2">Disponibilités personnalisées</span>
-          <span class="rounded-full bg-secondary-container px-4 py-2">Confirmation rapide</span>
-        </div>
-      </article>
-
-      <article class="rounded-3xl border border-outline-variant bg-surface-container-low p-6 md:p-8 shadow-sm">
-        <h3 class="font-headline-md text-headline-md text-primary">Informations utiles</h3>
-        <div class="mt-5 space-y-4 text-on-surface-variant">
-          <div class="flex items-start gap-3 rounded-2xl bg-surface-container-lowest p-4 border border-outline-variant/70">
-            <span class="material-symbols-outlined text-primary">church</span>
-            <p class="font-body-md text-body-md">Célébration dédiée à une intention personnelle, familiale ou communautaire.</p>
-          </div>
-          <div class="flex items-start gap-3 rounded-2xl bg-surface-container-lowest p-4 border border-outline-variant/70">
-            <span class="material-symbols-outlined text-primary">calendar_month</span>
-            <p class="font-body-md text-body-md">Choisissez une date indicative et un créneau de conversation pastoral.</p>
-          </div>
-        </div>
-      </article>
-    </div>
-
-    <section class="rounded-3xl border border-outline-variant bg-surface-container-lowest p-6 md:p-8 shadow-sm">
-      <div class="border-b border-outline-variant/80 pb-6">
-        <p class="font-label-sm text-label-sm uppercase tracking-[0.35em] text-secondary">Demande spéciale</p>
-        <h2 class="mt-2 font-headline-lg text-headline-lg text-primary">Formulaire de préparation</h2>
-        <p class="mt-3 font-body-md text-body-md text-on-surface-variant">Renseignez les détails de votre intention et l’équipe paroissiale vous contactera pour finaliser l’organisation.</p>
-      </div>
-
-      <form class="mt-8 space-y-6">
-        <label class="block text-sm font-semibold text-primary">
-          Intention de messe
-          <input class="mt-2 w-full rounded-2xl border border-outline-variant bg-surface-container-lowest px-4 py-3 text-on-surface shadow-sm outline-none transition duration-200 focus:border-primary focus:bg-surface focus:ring-2 focus:ring-primary/20" type="text" placeholder="Pour le repos de l’âme de…" />
-        </label>
-
-        <div class="grid gap-6 md:grid-cols-2">
-          <label class="block text-sm font-semibold text-primary">
-            Type de célébration
-            <select class="mt-2 w-full rounded-2xl border border-outline-variant bg-surface-container-lowest px-4 py-3 text-on-surface shadow-sm outline-none transition duration-200 focus:border-primary focus:bg-surface focus:ring-2 focus:ring-primary/20">
-              <option disabled selected>Choisir un type</option>
-              <option>Funérailles</option>
-              <option>Mémorial</option>
-              <option>Jubilé</option>
-              <option>Mariage</option>
-              <option>Autre demande</option>
-            </select>
-          </label>
-
-          <label class="block text-sm font-semibold text-primary">
-            Date souhaitée
-            <input class="mt-2 w-full rounded-2xl border border-outline-variant bg-surface-container-lowest px-4 py-3 text-on-surface shadow-sm outline-none transition duration-200 focus:border-primary focus:bg-surface focus:ring-2 focus:ring-primary/20" type="date" />
-          </label>
-        </div>
-
-        <label class="block text-sm font-semibold text-primary">
-          Description détaillée
-          <textarea class="mt-2 w-full rounded-2xl border border-outline-variant bg-surface-container-lowest px-4 py-3 text-on-surface shadow-sm outline-none transition duration-200 focus:border-primary focus:bg-surface focus:ring-2 focus:ring-primary/20" rows="5" placeholder="Précisez les besoins liturgiques ou l’intention précise de cette célébration."></textarea>
-        </label>
-
-        <label class="block text-sm font-semibold text-primary">
-          Nom du demandeur
-          <input class="mt-2 w-full rounded-2xl border border-outline-variant bg-surface-container-lowest px-4 py-3 text-on-surface shadow-sm outline-none transition duration-200 focus:border-primary focus:bg-surface focus:ring-2 focus:ring-primary/20" type="text" placeholder="Nom complet" />
-        </label>
-
-        <div class="rounded-3xl bg-surface-container-low border border-outline-variant/80 p-5">
-          <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-            <div>
-              <p class="font-label-sm text-label-sm uppercase tracking-[0.35em] text-secondary">Suivi pastoral</p>
-              <h3 class="mt-2 font-headline-md text-headline-md text-primary">Prendre rendez-vous</h3>
-              <p class="mt-1 font-body-md text-body-md text-on-surface-variant">L’équipe vous recontactera pour organiser la rencontre nécessaire à la préparation.</p>
+            <!-- Progress Indicators -->
+            <div class="flex gap-4 items-center justify-center w-full flex-wrap md:flex-nowrap mt-8">
+                <div class="flex flex-col gap-2 items-center">
+                    <div class="bg-[#0c6780] w-10 h-10 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                        </svg>
+                    </div>
+                    <span class="font-['Inter'] font-bold text-[#0c6780] text-[12px] tracking-[0.6px]">SÉLECTIONNER LE TYPE</span>
+                </div>
+                <div class="w-16 h-px bg-[#c5c6cf] hidden md:block"></div>
+                <div class="flex flex-col gap-2 items-center">
+                    <div class="bg-[#0c6780] w-10 h-10 rounded-full flex items-center justify-center">
+                        <span class="font-['Inter'] font-bold text-white text-[16px]">2</span>
+                    </div>
+                    <span class="font-['Inter'] font-bold text-[#0c6780] text-[12px] tracking-[0.6px]">DÉTAILS</span>
+                </div>
+                <div class="w-16 h-px bg-[#c5c6cf] hidden md:block"></div>
+                <div class="flex flex-col gap-2 items-center">
+                    <div class="bg-[#e1e3e4] w-10 h-10 rounded-full flex items-center justify-center">
+                        <span class="font-['Inter'] font-bold text-[#44474e] text-[16px]">3</span>
+                    </div>
+                    <span class="font-['Inter'] font-bold text-[#44474e] text-[12px] tracking-[0.6px]">CONFIRMER</span>
+                </div>
             </div>
-            <button type="button" class="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-on-primary shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-container hover:text-on-primary-container">Prendre rendez-vous <span class="material-symbols-outlined">calendar_month</span></button>
-          </div>
         </div>
-      </form>
     </section>
-  </div>
-</section>
+
+    <!-- Main Content -->
+    <section class="px-4 md:px-12 py-16 flex justify-center">
+        <div class="w-full max-w-[1200px]">
+            <div class="bg-white rounded-[8px] border border-[rgba(191,200,205,0.3)] shadow-sm p-8 space-y-8">
+                <!-- Type of Celebration -->
+                <div>
+                    <label class="font-['Manrope'] font-semibold text-[#0c6780] text-[12px] tracking-[1.2px] uppercase block mb-4">
+                        TYPE DE CÉLÉBRATION
+                    </label>
+                    <select class="w-full bg-[#f5f3f3] rounded-t-[4px] p-4 font-['Manrope'] text-[16px] outline-none border-none">
+                        <option>Mariage</option>
+                        <option>Baptême</option>
+                        <option>Confirmation</option>
+                        <option>Anniversaire de mariage</option>
+                        <option>Autres événements</option>
+                    </select>
+                </div>
+
+                <!-- Description/Context -->
+                <div>
+                    <label class="font-['Manrope'] font-semibold text-[#0c6780] text-[12px] tracking-[1.2px] uppercase block mb-4">
+                        CONTEXTE ET DÉTAILS
+                    </label>
+                    <textarea class="w-full bg-[#f5f3f3] rounded-t-[4px] p-4 font-['Manrope'] text-[16px] min-h-[140px] placeholder-[#6b7280] resize-none outline-none" placeholder="Décrivez l'événement ou l'occasion célébrée, les personnes concernées, et toute intention particulière..."></textarea>
+                </div>
+
+                <!-- Three Column Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div>
+                        <label class="font-['Manrope'] font-semibold text-[#0c6780] text-[12px] tracking-[1.2px] uppercase block mb-4">
+                            DATE PRÉFÉRÉE
+                        </label>
+                        <input type="date" class="w-full bg-[#f5f3f3] rounded-t-[4px] p-4 font-['Manrope'] text-[16px] outline-none border-none" />
+                    </div>
+                    <div>
+                        <label class="font-['Manrope'] font-semibold text-[#0c6780] text-[12px] tracking-[1.2px] uppercase block mb-4">
+                            HEURE PRÉFÉRÉE
+                        </label>
+                        <input type="time" class="w-full bg-[#f5f3f3] rounded-t-[4px] p-4 font-['Manrope'] text-[16px] outline-none border-none" />
+                    </div>
+                    <div>
+                        <label class="font-['Manrope'] font-semibold text-[#0c6780] text-[12px] tracking-[1.2px] uppercase block mb-4">
+                            NOMBRE DE PERSONNES
+                        </label>
+                        <input type="number" min="1" class="w-full bg-[#f5f3f3] rounded-t-[4px] p-4 font-['Manrope'] text-[16px] placeholder-[#6b7280] outline-none border-none" placeholder="Env. 50" />
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <label class="font-['Manrope'] font-semibold text-[#0c6780] text-[12px] tracking-[1.2px] uppercase block mb-4">
+                        PERSONNE DE CONTACT
+                    </label>
+                    <input type="text" class="w-full bg-[#f5f3f3] rounded-t-[4px] p-4 font-['Manrope'] text-[16px] placeholder-[#6b7280] outline-none border-none" placeholder="Votre nom" />
+                </div>
+
+                <!-- Button -->
+                <div class="pt-4 space-y-3">
+                    <button class="w-full bg-[#0c6780] text-white rounded-[12px] py-5 font-['Manrope'] font-semibold text-[18px] hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                        <span>Suivant</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="px-4 md:px-12 pb-16 flex justify-center">
+        <div class="w-full max-w-[1200px]">
+            <div class="bg-white rounded-[8px] border border-[rgba(191,200,205,0.3)] p-8 space-y-6">
+                <h2 class="font-['Noto_Serif'] font-bold text-[#0c6780] text-[32px] leading-[57.6px] tracking-[-0.96px]">
+                    À propos des messes spéciales
+                </h2>
+                <p class="font-['Manrope'] text-[#3f484c] text-[16px] leading-[24px]">
+                    Les messes spéciales offrent une occasion unique de célébrer les moments importants de votre vie en communion avec la paroisse. Notre équipe pastorale sera heureuse d'adapter la célébration à votre intention particulière et de répondre à vos questions.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
