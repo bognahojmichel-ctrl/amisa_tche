@@ -19,6 +19,7 @@ switch ($page) {
     case 'gestion-demandes':
         require_once __DIR__ . '/../src/views/gestion_demandes.php';
         break;
+
     case 'gestion-rendez-vous':
         require_once __DIR__ . '/../src/views/gestion_rendez_vous.php';
         break;
@@ -27,6 +28,21 @@ switch ($page) {
         break;
     case 'communiques':
         require_once __DIR__ . '/../src/views/gestion_communique.php';
+        break;
+    case 'demande-messe-speciale':
+        require_once __DIR__ . '/../src/views/demande_messe_speciale.php';
+        break;
+    case 'gestion-disponibilites':
+        require_once __DIR__ . '/../src/views/gestion_disponibilite.php';
+        break;
+    case 'gestion-horaires':
+        require_once __DIR__ . '/../src/views/gestion_horaire.php';
+        break;
+    case 'admin-dashboard':
+        require_once __DIR__ . '/../src/views/admin_dashboard.php';
+        break;
+    case 'portail-dons':
+        require_once __DIR__ . '/../src/views/portail_dons.php';
         break;
     case 'home':
     default:
