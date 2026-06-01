@@ -1,194 +1,141 @@
-        <section class="px-margin-mobile py-12 md:px-margin-desktop md:py-16 max-w-[1200px] mx-auto">
-          <div class="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] items-start">
-            <div class="space-y-8">
-              <div class="space-y-5">
-                <div class="inline-flex items-center gap-3 rounded-full bg-surface-container-highest px-4 py-2 text-sm font-semibold text-primary/90 tracking-[0.3em] uppercase">Demande d'une Messe</div>
-                <h1 class="text-4xl md:text-5xl font-black text-primary leading-tight">Prise de rendez-vous pour une messe spéciale</h1>
-                <p class="max-w-2xl text-base md:text-lg text-on-surface-variant">Offrez une Messe pour un être cher, un événement spécial, ou une âme en besoin de prière. Préparez cette demande dans un cadre moderne, spirituel et élégant.</p>
-              </div>
-
-              <div class="grid gap-4 sm:grid-cols-3">
-                <div class="rounded-3xl border border-outline-variant/80 bg-surface-container-low p-5 shadow-sm">
-                  <span class="text-xs uppercase tracking-[0.3em] text-secondary font-semibold">Étape 1</span>
-                  <h2 class="mt-3 text-xl font-semibold text-primary">Sélectionner le type</h2>
-                </div>
-                <div class="rounded-3xl border border-outline-variant/80 bg-surface-container-low p-5 shadow-sm">
-                  <span class="text-xs uppercase tracking-[0.3em] text-secondary font-semibold">Étape 2</span>
-                  <h2 class="mt-3 text-xl font-semibold text-primary">Détails</h2>
-                </div>
-                <div class="rounded-3xl border border-outline-variant/80 bg-surface-container-low p-5 shadow-sm">
-                  <span class="text-xs uppercase tracking-[0.3em] text-secondary font-semibold">Étape 3</span>
-                  <h2 class="mt-3 text-xl font-semibold text-primary">Confirmer</h2>
-                </div>
-              </div>
-
-              <div class="grid gap-6 md:grid-cols-2">
-                <article class="rounded-3xl bg-primary text-on-primary p-8 shadow-lg border border-primary/10 transition-all duration-300 hover:-translate-y-1">
-                  <div class="flex items-center gap-4">
-                    <span class="material-symbols-outlined text-4xl text-secondary-fixed">church</span>
-                    <div>
-                      <p class="text-sm uppercase tracking-[0.35em] text-on-primary/80">Messe ordinaire</p>
-                      <h2 class="mt-2 text-2xl font-semibold">Une prière simple et précieuse</h2>
-                    </div>
-                  </div>
-                  <p class="mt-5 text-body-md text-on-primary/90">Une célébration simple pour une intention personnelle ou familiale, offerte avec dignité et recueillement.</p>
-                </article>
-
-                <article class="rounded-3xl border border-outline-variant bg-surface-container-lowest p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
-                  <div class="flex items-center gap-4">
-                    <span class="material-symbols-outlined text-4xl text-secondary">auto_awesome</span>
-                    <div>
-                      <p class="text-sm uppercase tracking-[0.35em] text-secondary">Messe spéciale</p>
-                      <h2 class="mt-2 text-2xl font-semibold text-primary">Célébration plus solennelle</h2>
-                    </div>
-                  </div>
-                  <p class="mt-5 text-body-md text-on-surface-variant">Pour funérailles, mémoriaux ou jubilés, cette option requiert un dialogue préalable avec le prêtre afin de préparer chaque détail.</p>
-                </article>
-              </div>
-
-              <article class="rounded-3xl bg-surface-container-low border border-outline-variant p-8 shadow-sm">
-                <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                  <div>
-                    <p class="text-sm uppercase tracking-[0.35em] text-secondary">Conseil pastoral</p>
-                    <h2 class="mt-2 text-2xl font-semibold text-primary">Pourquoi demander une messe ?</h2>
-                  </div>
-                  <div class="inline-flex items-center gap-2 rounded-full bg-primary-container px-4 py-2 text-sm font-semibold text-on-secondary-container">Engagement spirituel</div>
-                </div>
-                <p class="mt-5 text-body-md text-on-surface-variant leading-relaxed">Chaque intention est un geste de foi. Elle relie votre demande à la célébration eucharistique et à la prière de toute la communauté.</p>
-                <div class="mt-6 grid gap-4">
-                  <div class="flex items-start gap-3 rounded-3xl bg-surface-container-lowest p-4 border border-outline-variant">
-                    <span class="material-symbols-outlined text-primary">groups</span>
-                    <p class="text-body-md text-on-surface-variant">Accompagnement pastoral de la paroisse Saint Gabriel.</p>
-                  </div>
-                  <div class="flex items-start gap-3 rounded-3xl bg-surface-container-lowest p-4 border border-outline-variant">
-                    <span class="material-symbols-outlined text-primary">verified</span>
-                    <p class="text-body-md text-on-surface-variant">Confirmation simple et claire de votre demande.</p>
-                  </div>
-                </div>
-              </article>
+<!-- Main Content Section -->
+<div class="bg-[#f8f9fa] min-h-screen flex flex-col">
+    <!-- Header & Title Section -->
+    <section class="px-4 md:px-12 py-16 flex justify-center">
+        <div class="w-full max-w-[672px] flex flex-col gap-16">
+            <!-- Title & Description -->
+            <div class="flex flex-col gap-4 items-center">
+                <h1 class="font-['Noto_Serif'] font-bold text-[#0c6780] text-[48px] text-center leading-[57.6px] tracking-[-0.96px]">
+                    Demander une Messe
+                </h1>
+                <p class="font-['Manrope'] text-[#3f484c] text-[18px] text-center leading-[28.8px]">
+                    Confiez vos intentions à la prière de la communauté à travers le saint sacrifice de la messe.
+                </p>
             </div>
 
-            <div class="space-y-8">
-              <section class="rounded-3xl border border-outline-variant bg-surface-container-lowest p-8 shadow-sm">
-                <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                  <div>
-                    <p class="text-sm uppercase tracking-[0.35em] text-secondary">Calendrier</p>
-                    <h2 class="mt-2 text-2xl font-semibold text-primary">Choisissez une date</h2>
-                  </div>
-                  <button class="inline-flex items-center gap-2 rounded-full border border-outline-variant bg-background px-5 py-3 text-sm font-semibold text-primary transition hover:bg-surface">Voir les disponibilités</button>
+            <!-- Progress Indicators -->
+            <div class="flex gap-4 items-center justify-center w-full flex-wrap md:flex-nowrap">
+                <!-- Step 1 -->
+                <div class="flex flex-col gap-2 items-center">
+                    <div class="bg-[#0c6780] w-10 h-10 rounded-full flex items-center justify-center">
+                        <span class="font-['Inter'] font-bold text-white text-[16px] leading-[24px]">1</span>
+                    </div>
+                    <span class="font-['Inter'] font-bold text-[#0c6780] text-[12px] text-center tracking-[0.6px] whitespace-nowrap">
+                        SÉLECTIONNER LE TYPE
+                    </span>
                 </div>
 
-                <div class="mt-8 grid gap-4 md:grid-cols-2">
-                  <label class="block text-sm font-semibold text-primary">
-                    Date souhaitée
-                    <input class="mt-2 w-full rounded-3xl border border-outline-variant bg-surface-container-lowest px-4 py-4 text-on-surface shadow-sm outline-none transition duration-200 focus:border-primary focus:ring-2 focus:ring-primary/20" type="date" />
-                  </label>
-                  <label class="block text-sm font-semibold text-primary">
-                    Indication horaire
-                    <select class="mt-2 w-full rounded-3xl border border-outline-variant bg-surface-container-lowest px-4 py-4 text-on-surface shadow-sm outline-none transition duration-200 focus:border-primary focus:ring-2 focus:ring-primary/20">
-                      <option>Matin (8h30)</option>
-                      <option>Après-midi (12h00)</option>
-                      <option>Soir (17h00)</option>
-                    </select>
-                  </label>
+                <!-- Divider -->
+                <div class="w-16 h-px bg-[#c5c6cf] hidden md:block"></div>
+
+                <!-- Step 2 -->
+                <div class="flex flex-col gap-2 items-center">
+                    <div class="bg-[#e1e3e4] w-10 h-10 rounded-full flex items-center justify-center">
+                        <span class="font-['Inter'] font-bold text-[#44474e] text-[16px] leading-[24px]">2</span>
+                    </div>
+                    <span class="font-['Inter'] font-bold text-[#44474e] text-[12px] text-center tracking-[0.6px] whitespace-nowrap">
+                        DÉTAILS
+                    </span>
                 </div>
 
-                <div class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                  <button class="rounded-3xl border border-outline-variant bg-white px-5 py-5 text-left transition duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:border-primary/40">
-                    <div class="flex items-center justify-between gap-3">
-                      <div>
-                        <p class="text-sm uppercase tracking-[0.35em] text-secondary">Disponible</p>
-                        <p class="mt-2 text-xl font-semibold text-primary">08h30</p>
-                      </div>
-                      <span class="material-symbols-outlined text-primary">calendar_today</span>
-                    </div>
-                    <p class="mt-4 text-sm text-on-surface-variant">Créneau libre, idéal pour une messe de recueillement.</p>
-                  </button>
-                  <button class="rounded-3xl border border-primary bg-primary/10 px-5 py-5 text-left transition duration-200 shadow-md border-primary">
-                    <div class="flex items-center justify-between gap-3">
-                      <div>
-                        <p class="text-sm uppercase tracking-[0.35em] text-primary">Sélectionné</p>
-                        <p class="mt-2 text-xl font-semibold text-primary">12h00</p>
-                      </div>
-                      <span class="material-symbols-outlined text-secondary">check_circle</span>
-                    </div>
-                    <p class="mt-4 text-sm text-on-surface-variant">Choisi pour votre rendez-vous pastoral.</p>
-                  </button>
-                  <button class="rounded-3xl border border-outline-variant bg-surface-container-low px-5 py-5 text-left text-on-surface-variant transition duration-200 hover:border-outline-variant">
-                    <div class="flex items-center justify-between gap-3">
-                      <div>
-                        <p class="text-sm uppercase tracking-[0.35em] text-on-surface-variant">Complet</p>
-                        <p class="mt-2 text-xl font-semibold text-on-surface">17h00</p>
-                      </div>
-                      <span class="material-symbols-outlined text-on-surface-variant">block</span>
-                    </div>
-                    <p class="mt-4 text-sm">Ce créneau est déjà réservé. Choisissez une autre heure.</p>
-                  </button>
-                </div>
-              </section>
+                <!-- Divider -->
+                <div class="w-16 h-px bg-[#c5c6cf] hidden md:block"></div>
 
-              <section class="rounded-3xl border border-outline-variant bg-surface-container-lowest p-8 shadow-sm">
-                <div class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-                  <div class="flex items-center gap-4">
-                    <div class="rounded-3xl bg-primary-container/15 p-4 text-primary">
-                      <span class="material-symbols-outlined text-3xl">person</span>
+                <!-- Step 3 -->
+                <div class="flex flex-col gap-2 items-center">
+                    <div class="bg-[#e1e3e4] w-10 h-10 rounded-full flex items-center justify-center">
+                        <span class="font-['Inter'] font-bold text-[#44474e] text-[16px] leading-[24px]">3</span>
                     </div>
-                    <div>
-                      <p class="text-sm uppercase tracking-[0.35em] text-secondary">Célébrant</p>
-                      <h3 class="mt-2 text-2xl font-semibold text-primary">Père Michel</h3>
-                    </div>
-                  </div>
-                  <span class="rounded-full bg-surface-container-high px-4 py-2 text-sm font-semibold text-on-surface-variant">Expérience sacerdotale de 20 ans</span>
+                    <span class="font-['Inter'] font-bold text-[#44474e] text-[12px] text-center tracking-[0.6px] whitespace-nowrap">
+                        CONFIRMER
+                    </span>
                 </div>
-
-                <p class="mt-6 text-body-md text-on-surface-variant leading-relaxed">Le Père Michel accompagne chaque intention avec chaleur, sérieux et une grande attention aux détails liturgiques.</p>
-                <div class="mt-6 grid gap-4 sm:grid-cols-2">
-                  <div class="rounded-3xl bg-surface-container-high px-5 py-4">
-                    <p class="text-sm uppercase tracking-[0.35em] text-secondary">Disponibilité</p>
-                    <p class="mt-3 text-lg font-semibold text-primary">Sur rendez-vous</p>
-                  </div>
-                  <div class="rounded-3xl bg-surface-container-high px-5 py-4">
-                    <p class="text-sm uppercase tracking-[0.35em] text-secondary">Style</p>
-                    <p class="mt-3 text-lg font-semibold text-primary">Recueillement et solennité</p>
-                  </div>
-                </div>
-              </section>
-
-              <section class="rounded-3xl border border-outline-variant bg-primary text-on-primary p-8 shadow-lg">
-                <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                  <div>
-                    <p class="text-sm uppercase tracking-[0.35em] text-on-primary/80">Confirmation</p>
-                    <h2 class="mt-2 text-2xl font-semibold">Validez votre démarche</h2>
-                  </div>
-                  <span class="rounded-full bg-on-primary/10 px-4 py-2 text-sm font-semibold text-on-primary">Service sécurisé</span>
-                </div>
-                <p class="mt-5 max-w-xl text-body-md text-on-primary/90">La demande sera transmise à la paroisse avec un suivi sécurisé, afin que votre messe spéciale soit préparée avec soin et respect.</p>
-                <a href="?p=rendezvous-messe" class="mt-8 inline-flex items-center justify-center gap-3 rounded-full bg-on-primary text-primary px-8 py-4 font-semibold transition duration-200 hover:bg-white/90 hover:scale-[1.01] shadow-xl shadow-primary/10">Suivant : Prendre Rendez-vous <span class="material-symbols-outlined">send</span></a>
-              </section>
             </div>
-          </div>
+        </div>
+    </section>
 
-          <section class="mt-12 rounded-3xl border border-outline-variant bg-surface-container-lowest p-8 shadow-sm">
-            <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-              <p class="text-sm uppercase tracking-[0.35em] text-secondary">Timeline</p>
-              <p class="text-sm text-on-surface-variant">Suivi de votre demande étape par étape</p>
+    <!-- Selection Cards Section -->
+    <section class="px-4 md:px-12 pb-16 flex justify-center">
+        <div class="w-full max-w-[672px]">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Ordinary Mass Card -->
+                <div class="bg-white rounded-[12px] shadow-[0px_4px_10px_rgba(3,22,54,0.08)] p-[34px] flex flex-col gap-6">
+                    <!-- Icon -->
+                    <div class="bg-[rgba(12,103,128,0.05)] w-12 h-12 rounded-[8px] flex items-center justify-center flex-shrink-0">
+                        <svg class="w-5 h-5 text-[#0c6780]" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C11.45 2 11 2.45 11 3V5H9V3C9 2.45 8.55 2 8 2C7.45 2 7 2.45 7 3V5H5C3.9 5 3 5.9 3 7V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V7C21 5.9 20.1 5 19 5H17V3C17 2.45 16.55 2 16 2C15.45 2 15 2.45 15 3V5H13V3C13 2.45 12.55 2 12 2ZM5 7H19V19H5V7Z"/>
+                        </svg>
+                    </div>
+
+                    <!-- Title -->
+                    <h3 class="font-['Noto_Serif'] font-medium text-[#0c6780] text-[24px] leading-[33.6px]">
+                        Messe Ordinaire
+                    </h3>
+
+                    <!-- Description -->
+                    <p class="font-['Manrope'] text-[#3f484c] text-[16px] leading-[26px]">
+                        Une célébration quotidienne pour vos intentions personnelles (action de grâce, défunts, santé).
+                    </p>
+
+                    <!-- Button -->
+                    <a href="?p=demande-messe-form" class="bg-[#0c6780] text-white rounded-[8px] py-3 px-4 font-['Inter'] text-[16px] font-normal text-center hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                        Sélectionner
+                        <svg class="w-[9.333px] h-[9.333px]" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8.59 16.59L10.18 15l-4.59-4.59L10.18 5.82 8.59 4.23 0 12.82z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Special Mass Card -->
+                <div class="bg-white rounded-[12px] shadow-[0px_4px_10px_rgba(3,22,54,0.08)] p-[34px] flex flex-col gap-6">
+                    <!-- Icon -->
+                    <div class="bg-[rgba(12,103,128,0.05)] w-12 h-12 rounded-[8px] flex items-center justify-center flex-shrink-0">
+                        <svg class="w-5 h-5 text-[#0c6780]" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12S6.48 22 12 22S22 17.52 22 12 17.52 2 12 2M10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"/>
+                        </svg>
+                    </div>
+
+                    <!-- Title -->
+                    <h3 class="font-['Noto_Serif'] font-medium text-[#1b1c1c] text-[24px] leading-[33.6px]">
+                        Messe Spéciale
+                    </h3>
+
+                    <!-- Description -->
+                    <p class="font-['Manrope'] text-[#3f484c] text-[16px] leading-[26px]">
+                        Pour les étapes majeures de la vie (mariages, funérailles, anniversaires de sacerdoce ou jubilés).
+                    </p>
+
+                    <!-- Button -->
+                    <button class="border-2 border-[#735c00] text-[#735c00] rounded-[8px] py-3 px-4 font-['Inter'] text-[16px] font-normal text-center hover:bg-[#735c00]/5 transition-colors flex items-center justify-center gap-2">
+                        Voir plus
+                        <svg class="w-[11.667px] h-[11.667px]" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8.59 16.59L10.18 15l-4.59-4.59L10.18 5.82 8.59 4.23 0 12.82z"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="mt-8 grid gap-6 lg:grid-cols-3">
-              <div class="rounded-3xl bg-white border border-outline-variant p-6 shadow-sm">
-                <p class="text-xs uppercase tracking-[0.35em] text-secondary">Étape 1</p>
-                <h3 class="mt-3 text-xl font-semibold text-primary">Choix du type</h3>
-                <p class="mt-3 text-sm text-on-surface-variant">Sélectionnez la catégorie de messe qui correspond à votre intention.</p>
-              </div>
-              <div class="rounded-3xl bg-primary-container/10 border border-primary/20 p-6 shadow-sm">
-                <p class="text-xs uppercase tracking-[0.35em] text-secondary">Étape 2</p>
-                <h3 class="mt-3 text-xl font-semibold text-primary">Renseignements</h3>
-                <p class="mt-3 text-sm text-on-surface-variant">Ajoutez les détails essentiels pour préparer la célébration.</p>
-              </div>
-              <div class="rounded-3xl bg-surface-container-low border border-outline-variant p-6 shadow-sm">
-                <p class="text-xs uppercase tracking-[0.35em] text-secondary">Étape 3</p>
-                <h3 class="mt-3 text-xl font-semibold text-primary">Confirmation</h3>
-                <p class="mt-3 text-sm text-on-surface-variant">Recevez la validation et la confirmation de la paroisse.</p>
-              </div>
+        </div>
+    </section>
+
+    <!-- Why Request a Mass Section -->
+    <section class="px-4 md:px-12 pb-16 flex justify-center">
+        <div class="w-full max-w-[1104px]">
+            <div class="bg-[rgba(135,206,235,0.2)] rounded-[8px] p-8 flex flex-col md:flex-row gap-8">
+                <!-- Image -->
+                <div class="flex-shrink-0 w-full md:w-[169px]">
+                    <img alt="Intérieur du sanctuaire sacré" class="w-full h-48 object-cover rounded-[4px]" />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col gap-2">
+                    <h4 class="font-['Noto_Serif'] font-medium text-[#0c6780] text-[24px] leading-[33.6px]">
+                        Pourquoi demander une messe ?
+                    </h4>
+                    <p class="font-['Manrope'] text-[#3f484c] text-[16px] leading-[26px]">
+                        C'est un acte de foi et d'espérance. Chaque messe a une valeur infinie car elle est le sacrifice même du Christ offert pour le salut du monde. En demandant une intention particulière, vous participez plus intimement à ce mystère de grâce.
+                    </p>
+                </div>
             </div>
-          </section>
-        </section>
+        </div>
+    </section>
+</div>
